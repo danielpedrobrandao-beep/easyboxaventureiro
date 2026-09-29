@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>EasyBox Acessórios para Celular | Assistência Técnica em Joinville</title>
+<meta name="description" content="Acessórios para celular e assistência técnica em Joinville: capinhas, películas, carregadores, cabos, fones e JBL original.">
+<style>
+:root{--a:#e10600;--bg:#050505;--c:#131313;--c2:#1c1c1c;--m:#a3a3a3;--ln:#2a2a2a}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{background:var(--bg);color:#fff;font:16px/1.5 system-ui,"Segoe UI",Roboto,sans-serif}
+img{max-width:100%;display:block}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.w{max-width:1280px;margin:auto;padding:0 16px}section{padding:56px 0}
+h2{font-size:clamp(1.5rem,4vw,2.3rem);letter-spacing:-.02em;line-height:1.1;margin-bottom:8px}h2 em{color:var(--a);font-style:normal}.sub{color:var(--m);margin-bottom:22px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 20px;border-radius:12px;font-weight:700;border:2px solid var(--a);background:var(--a);cursor:pointer;transition:.2s;font-size:.95rem}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px -8px var(--a)}.btn.o{background:none}.btn.o:hover{background:var(--a)}
+.btn.wa{background:#25d366;border-color:#25d366;color:#04210f}.btn.sm{padding:9px 12px;font-size:.85rem;border-radius:10px}.btn.blk{width:100%}
+header{position:fixed;inset:0 0 auto;z-index:50;background:rgba(5,5,5,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--ln);padding-top:env(safe-area-inset-top)}
+header .w{display:flex;align-items:center;gap:12px;height:68px}header img{height:44px}
+nav{display:flex;gap:22px;margin-left:auto}nav a{color:#ddd;font-weight:600;font-size:.92rem}nav a:hover{color:var(--a)}
+#bg{display:none;background:none;border:0;font-size:28px;cursor:pointer}
+#cb{position:relative;background:var(--c2);border:1px solid #333;border-radius:12px;width:44px;height:44px;font-size:20px;cursor:pointer}
+#cn{position:absolute;top:-6px;right:-6px;background:var(--a);border-radius:99px;font-size:.7rem;font-weight:800;min-width:20px;height:20px;line-height:20px;display:none}
+.hero{min-height:92vh;padding-top:68px;display:flex;align-items:center;background:#000 center/cover}
+.hero h1{font-size:clamp(2.1rem,6vw,4rem);line-height:1;letter-spacing:-.035em;max-width:800px;margin-bottom:16px}
+.hero p{color:#ddd;max-width:560px;margin-bottom:24px;font-size:1.05rem}.bt{display:flex;gap:12px;flex-wrap:wrap}
+.chipbar{display:flex;gap:10px 22px;flex-wrap:wrap;margin-top:28px;color:#bbb;font-size:.9rem}
+.car{position:relative;border-radius:18px;overflow:hidden;background:var(--c);height:clamp(210px,36vw,380px)}
+.sl{position:absolute;inset:0;opacity:0;pointer-events:none;transition:opacity .5s;background:center/cover;display:flex;align-items:center;padding:0 clamp(20px,6vw,70px)}
+.sl.on{opacity:1;pointer-events:auto;z-index:1}.sl:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.88),transparent 85%)}
+.sl>div{position:relative;max-width:520px}.sl small{color:var(--a);font-weight:800}.sl h3{font-size:clamp(1.3rem,4vw,2.4rem);line-height:1.1;margin:4px 0}.sl p{color:#ddd;margin-bottom:12px}
+.ar{position:absolute;top:50%;transform:translateY(-50%);z-index:3;background:rgba(0,0,0,.6);border:1px solid #333;width:40px;height:40px;border-radius:50%;cursor:pointer}.ar.l{left:10px}.ar.r{right:10px}
+.dots{position:absolute;bottom:10px;inset-inline:0;display:flex;gap:6px;justify-content:center;z-index:3}.dots i{width:8px;height:8px;border-radius:9px;background:#666;cursor:pointer}.dots i.on{background:var(--a);width:24px}
+.tools{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:10px;margin-bottom:14px}
+.tools input,.tools select{background:var(--c);border:1px solid var(--ln);border-radius:12px;padding:12px;width:100%}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:10px;margin-bottom:8px}.chip{white-space:nowrap;background:var(--c);border:1px solid var(--ln);padding:8px 16px;border-radius:99px;cursor:pointer;font-size:.88rem}.chip.on,.chip:hover{background:var(--a);border-color:var(--a)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:18px}
+.card{background:var(--c);border:1px solid var(--ln);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;transition:.25s}.card:hover{transform:translateY(-5px);border-color:var(--a)}.card.f{border-color:var(--a)}
+.ph{aspect-ratio:1;background:#0b0b0b;cursor:pointer;position:relative;display:grid;place-items:center;font-size:2.4rem;overflow:hidden}.ph img{width:100%;height:100%;object-fit:cover;transition:.4s}.card:hover .ph img{transform:scale(1.05)}
+.off{position:absolute;top:10px;left:10px;background:var(--a);font-weight:800;font-size:.78rem;padding:4px 10px;border-radius:99px}.st{position:absolute;top:10px;right:10px;background:#fff;color:#000;font-weight:800;font-size:.7rem;padding:4px 9px;border-radius:99px}
+.cb{padding:14px;display:flex;flex-direction:column;gap:6px;flex:1}.cat{color:var(--a);font-size:.75rem;font-weight:700}.cb h3{font-size:1rem;line-height:1.25}
+.cb p{color:var(--m);font-size:.82rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pr{margin-top:auto}.pr s{color:#777;font-size:.85rem;margin-right:6px}.pr b{font-size:1.3rem}.av{font-size:.75rem;color:#4ade80}.av.x{color:#f87171}
+.acts{display:grid;gap:6px;margin-top:8px}.r2{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.empty{grid-column:1/-1;text-align:center;color:var(--m);padding:40px;border:1px dashed #333;border-radius:16px}
+.band{background:linear-gradient(135deg,#1c0000,#000)}
+.svc{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:22px 0}.box{background:var(--c);border:1px solid var(--ln);border-radius:14px;padding:18px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.two img{border-radius:18px;border:1px solid #333;width:100%}
+iframe{width:100%;height:330px;border:0;border-radius:16px}
+.stars{color:#fbbf24}.rate{display:flex;align-items:center;gap:14px;margin-bottom:18px;flex-wrap:wrap}.rate b{font-size:2.6rem}
+footer{border-top:1px solid var(--ln);padding:34px 0 100px;color:var(--m);text-align:center;font-size:.9rem}footer a{color:#fff;margin:0 8px}
+#adm{background:none;border:0;color:#555;cursor:pointer;margin-top:12px;font-size:.7rem}
+#fw{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:60;width:60px;height:60px;border-radius:50%;background:#25d366;display:grid;place-items:center;font-size:30px;box-shadow:0 8px 26px rgba(37,211,102,.5)}
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:80;display:none;overflow:auto;padding:16px}.ov.on{display:block}
+.md{max-width:940px;margin:16px auto;background:var(--c);border:1px solid #333;border-radius:18px;padding:22px;position:relative}
+.x{position:absolute;right:12px;top:8px;background:none;border:0;font-size:30px;cursor:pointer}
+.pg{display:grid;grid-template-columns:1fr 1fr;gap:22px}.big{aspect-ratio:1;border-radius:14px;background:#0b0b0b center/cover}
+.th{display:flex;gap:8px;margin-top:8px;overflow:auto}.th img{width:62px;height:62px;object-fit:cover;border-radius:8px;cursor:pointer}.pg ul{padding-left:18px;color:#ccc;margin:8px 0}
+.dr{position:fixed;right:0;top:0;bottom:0;width:min(420px,100%);background:var(--c);border-left:1px solid #333;padding:18px;display:flex;flex-direction:column;gap:12px}
+#cl{flex:1;overflow:auto;display:flex;flex-direction:column;gap:8px}.ci{display:flex;gap:10px;align-items:center;padding:10px;background:#0b0b0b;border:1px solid var(--ln);border-radius:12px}
+.ci img{width:54px;height:54px;object-fit:cover;border-radius:8px}.ci .n{flex:1;min-width:0}.ci button{width:28px;height:28px;border-radius:8px;border:1px solid #333;background:var(--c2);cursor:pointer}
+#ts{position:fixed;bottom:100px;left:50%;transform:translateX(-50%);background:#fff;color:#000;padding:10px 18px;border-radius:99px;font-weight:700;z-index:90;display:none}
+.ad label{display:block;font-size:.8rem;color:var(--m);margin:10px 0 3px}.ad input:not([type=checkbox]),.ad select,.ad textarea{width:100%;background:#0b0b0b;border:1px solid #333;border-radius:8px;padding:9px}.ad textarea{min-height:76px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.row{display:flex;align-items:center;gap:8px;padding:8px;border:1px solid var(--ln);border-radius:10px;margin:6px 0;background:#0b0b0b}.row img{width:42px;height:42px;object-fit:cover;border-radius:8px}.row span{flex:1;overflow:hidden;text-overflow:ellipsis}
+.err{color:#f87171;font-size:.85rem}.ok{color:#4ade80;font-size:.85rem}
+@media(max-width:860px){nav{position:fixed;top:68px;inset-inline:0;background:#0a0a0a;flex-direction:column;padding:20px;border-bottom:1px solid var(--ln);display:none}nav.on{display:flex}#bg{display:block}
+.hw{margin-left:auto}.hw .t{display:none}.two,.pg{grid-template-columns:1fr}.tools{grid-template-columns:1fr 1fr}.tools input:first-child{grid-column:1/-1}
+.grid{grid-template-columns:repeat(2,1fr);gap:10px}.cb{padding:10px}.cb h3{font-size:.9rem}.pr b{font-size:1.1rem}.btn.sm{font-size:.75rem;padding:8px 6px}section{padding:40px 0}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style></head><body>
+<header><div class="w"><a href="#inicio" id="lg"></a><nav id="nv"><a href="#inicio">Início</a><a href="#catalogo">Catálogo</a><a href="#assistencia">Assistência Técnica</a><a href="#sobre">Sobre nós</a><a href="#contato">Contato</a></nav>
+<a class="btn wa sm hw" data-wa="Olá! Gostaria de mais informações.">💬 <span class="t">Falar no WhatsApp</span></a>
+<button id="cb" aria-label="Carrinho" onclick="openCart()">🛒<span id="cn">0</span></button><button id="bg" aria-label="Menu">☰</button></div></header>
+<main id="app"></main>
+<a id="fw" data-wa="Olá! Vim pelo site e gostaria de mais informações." aria-label="WhatsApp">💬</a>
+<div id="ts"></div>
+<div class="ov" id="pm"><div class="md"><button class="x" onclick="closeP()" aria-label="Fechar">×</button><div id="pb"></div></div></div>
+<div class="ov" id="ct" onclick="if(event.target===this)closeCart()"></div>
+<div class="ov ad" id="ad"><div class="md" id="ab"></div></div>
+<script>
+const $=s=>document.querySelector(s);
+const HASH="7f4a9e2b6717e8b4d8070befbf06ed4d4cedb6486dd2fbd55de5b73101e4b39c"; // SHA-256 da senha (a senha em si não está no código)
+const DEF={settings:{name:"EasyBox Acessórios para Celular",unit:"Fort Aventureiro",logo:"https://i.postimg.cc/Hnk13wTn/Gemini-Generated-Image-pcil4gpcil4gpcil-removebg-preview-(1).png",storePhoto:"https://i.postimg.cc/QdpY9Br5/Gemini-Generated-Image-6xovuc6xovuc6xov-(1).jpg",color:"#e10600",whatsapp:"5547992620718",phone:"(47) 99262-0718",email:"",instagram:"https://www.instagram.com/easyboxfortaventureiro/",linktree:"https://linktr.ee/easyboxfortaventureiro",address:"Anexo ao Fort Atacadista - R. Tuiuti, 4157 - Aventureiro, Joinville - SC, 89226-001",hours:"Aberto até às 21h (confirme os dias no Google)",city:"Joinville, SC",gRating:"4,9",gCount:"28",gLink:"https://www.google.com/search?q=easy+box+aventureiro",heroTitle:"Tecnologia, acessórios e assistência especializada",heroSub:"Encontre os melhores acessórios para seu celular e conte com assistência técnica especializada para manter seu aparelho funcionando perfeitamente.",categories:"Capinhas\nPelículas\nCarregadores\nCabos\nFones\nCaixas de Som\nSuportes\nPower Banks\nSmartwatch\nAcessórios\nProdutos Apple\nProdutos Samsung\nProdutos Xiaomi\nOutros",services:"Troca de tela\nTroca de bateria\nReparo de conector\nProblemas de carregamento\nProblemas de áudio\nProblemas de câmera\nReparos em placa\nDiagnóstico\nManutenção preventiva",servicesText:"Seu celular com problemas? Fazemos o diagnóstico e o orçamento pelo WhatsApp.",why:"Atendimento especializado\nProdutos selecionados\nAssistência técnica especializada\nOrçamento sem complicação\nGarantia nos serviços conforme política da loja\nAtendimento rápido\nFacilidade pelo WhatsApp",about:"Loja especializada em acessórios para celular no Fort Atacadista, em Joinville. Capinhas, películas de vidro 3D e hidrogel, JBL original, cabos, carregadores, smartwatch e muito mais. Faça-nos uma visita!",mission:"",team:"",reviews:"Cliente Google|Loja organizada, com bastante variedade e preços justos.\nCliente Google|Variedades de opções, preço compatível!\nCliente Google|Ótimo lugar para acessórios e assistência técnica de celular."},products:[],banners:[]};
+let D;try{D=JSON.parse(localStorage.getItem("eb_db"))}catch(e){}
+if(!D||!D.settings)D=JSON.parse(JSON.stringify(DEF));
+const persist=()=>{try{localStorage.setItem("eb_db",JSON.stringify(D))}catch(e){alert("Sem espaço para salvar. Use imagens por link (URL) em vez de upload.")}};
+let F={q:"",cat:"",brand:"",max:"",sale:false,sort:"new",avail:false},cur=0,timer,CART=[];
+try{CART=JSON.parse(localStorage.getItem("eb_cart")||"[]")}catch(e){}
+const E=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const R=v=>"R$ "+Number(v).toFixed(2).replace(".",",");
+const L=t=>String(t||"").split("\n").map(x=>x.trim()).filter(Boolean);
+const uid=()=>Math.random().toString(36).slice(2,9);
+const slug=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+const safe=u=>/^(https?:\/\/|data:image\/|#|\/)/.test(u||"")?u:"";
+const WA=m=>"https://wa.me/"+String(D.settings.whatsapp).replace(/\D/g,"")+"?text="+encodeURIComponent(m);
+const eff=p=>p.sale&&+p.promo>0&&+p.promo<+p.price?+p.promo:+p.price;
+const off=p=>eff(p)<+p.price?Math.round((1-eff(p)/p.price)*100):0;
+const out=p=>/indispon/i.test(p.stock||"");
+const act=()=>D.products.filter(p=>p.active!==false);
+const byId=id=>D.products.find(p=>p.id===id);
+const wait=p=>"Olá! Tenho interesse no produto "+p.name+", no valor de "+R(eff(p))+". Gostaria de saber mais informações.";
+function bindWA(){document.querySelectorAll("[data-wa]").forEach(a=>{a.href=WA(a.dataset.wa);a.target="_blank";a.rel="noopener"})}
+function toast(m){const t=$("#ts");t.textContent=m;t.style.display="block";clearTimeout(t.h);t.h=setTimeout(()=>t.style.display="none",1600)}
+
+/* ===== Catálogo ===== */
+function card(p,fe){const o=off(p);
+return `<article class="card${fe?" f":""}"><div class="ph" onclick="openP('${p.id}')">${p.image?`<img loading="lazy" src="${E(p.image)}" alt="${E(p.name)}">`:"📱"}${o?`<span class="off">-${o}% OFF</span>`:""}${fe&&p.featured?'<span class="st">⭐ Destaque</span>':""}</div>
+<div class="cb"><span class="cat">${E(p.category)}${p.brand?" · "+E(p.brand):""}</span><h3>${E(p.name)}</h3><p>${E(p.desc)}</p>
+<div class="av${out(p)?" x":""}">● ${E(p.stock||"Disponível")}</div>
+<div class="pr">${o?`<s>${R(p.price)}</s>`:""}<b>${R(eff(p))}</b></div>
+<div class="acts"><div class="r2"><button class="btn o sm" onclick="openP('${p.id}')">Ver produto</button>${out(p)?"":`<button class="btn sm" onclick="add('${p.id}')">🛒 Adicionar</button>`}</div>
+<a class="btn wa sm" target="_blank" rel="noopener" href="${WA(wait(p))}">💬 Comprar pelo WhatsApp</a></div></div></article>`}
+function filtered(){const q=F.q.toLowerCase();
+const r=act().filter(p=>{const h=(p.name+" "+p.category+" "+p.brand+" "+p.desc+" "+p.compat).toLowerCase();
+return(!q||q.split(" ").every(w=>h.includes(w)))&&(!F.cat||p.category===F.cat)&&(!F.brand||p.brand===F.brand)&&(!F.max||eff(p)<=+F.max)&&(!F.sale||off(p)>0)&&(!F.avail||!out(p))});
+const s={lo:(a,b)=>eff(a)-eff(b),hi:(a,b)=>eff(b)-eff(a),promo:(a,b)=>off(b)-off(a),new:(a,b)=>(a.order||0)-(b.order||0)||b.created-a.created};return r.sort(s[F.sort])}
+function drawGrid(){const r=filtered();$("#gr").innerHTML=r.length?r.map(p=>card(p)).join(""):`<div class="empty">${act().length?"Nenhum produto encontrado. Tente outros filtros.":"Nosso catálogo online está sendo atualizado. Chame a gente no WhatsApp!"}</div>`;
+document.querySelectorAll(".chip").forEach(c=>c.classList.toggle("on",c.dataset.c===F.cat))}
+function setF(k,v){F[k]=v;drawGrid()}
+
+/* ===== Carrinho ===== */
+const saveCart=()=>{try{localStorage.setItem("eb_cart",JSON.stringify(CART))}catch(e){}updCart()};
+const items=()=>CART.map(c=>{const p=byId(c.id);return p&&p.active!==false&&!out(p)?{p,q:c.q}:null}).filter(Boolean);
+function updCart(){const n=items().reduce((a,i)=>a+i.q,0),e=$("#cn");e.textContent=n;e.style.display=n?"block":"none"}
+function add(id){const c=CART.find(x=>x.id===id);c?c.q=Math.min(99,c.q+1):CART.push({id,q:1});saveCart();toast("🛒 Adicionado ao carrinho")}
+function qty(id,d){const c=CART.find(x=>x.id===id);if(!c)return;c.q+=d;if(c.q<=0)CART=CART.filter(x=>x.id!==id);saveCart();drawCart()}
+function openCart(){drawCart();$("#ct").classList.add("on")}
+function closeCart(){$("#ct").classList.remove("on")}
+function drawCart(){const it=items();let t=0;
+$("#ct").innerHTML=`<div class="dr"><div style="display:flex;justify-content:space-between;align-items:center"><h2>🛒 Seu carrinho</h2><button class="x" style="position:static" onclick="closeCart()" aria-label="Fechar">×</button></div>
+<div id="cl">${it.length?it.map(i=>{const v=eff(i.p);t+=v*i.q;return `<div class="ci">${i.p.image?`<img src="${E(i.p.image)}" alt="">`:""}<div class="n"><b style="font-size:.9rem">${E(i.p.name)}</b><div style="color:var(--m);font-size:.85rem">${R(v)}</div></div><button onclick="qty('${i.p.id}',-1)">−</button><b>${i.q}</b><button onclick="qty('${i.p.id}',1)">+</button><button onclick="qty('${i.p.id}',-99)" aria-label="Remover">🗑️</button></div>`}).join(""):'<div class="empty">Seu carrinho está vazio. Adicione produtos do catálogo.</div>'}</div>
+${it.length?`<div style="display:flex;justify-content:space-between;font-size:1.2rem"><span>Total</span><b>${R(t)}</b></div><button class="btn wa blk" onclick="checkout()">💬 Finalizar pelo WhatsApp</button><button class="btn o sm blk" onclick="CART=[];saveCart();drawCart()">Limpar carrinho</button>`:""}</div>`}
+function checkout(){const it=items();if(!it.length)return;let t=0,m="Olá! Gostaria de fazer o seguinte pedido:\n\n";
+it.forEach(i=>{const v=eff(i.p);t+=v*i.q;m+=`• ${i.q}x ${i.p.name} — ${R(v)} cada (${R(v*i.q)})\n`});
+window.open(WA(m+"\nTotal: "+R(t)+"\n\nPode confirmar a disponibilidade?"),"_blank")}
+
+/* ===== Site ===== */
+function render(){const s=D.settings,P=act(),brands=[...new Set(P.map(p=>p.brand).filter(Boolean))],t=new Date().toISOString().slice(0,10);
+document.documentElement.style.setProperty("--a",/^#[0-9a-f]{3,8}$/i.test(s.color)?s.color:"#e10600");
+$("#lg").innerHTML=`<img src="${E(s.logo)}" alt="${E(s.name)}">`;
+const bn=D.banners.filter(b=>b.active!==false&&(!b.start||b.start<=t)&&(!b.end||b.end>=t)),fe=P.filter(p=>p.featured),sl=P.filter(p=>off(p)>0);
+const rv=L(s.reviews).map(l=>l.split("|"));let h="";
+h+=`<section class="hero" id="inicio" style="background-image:linear-gradient(90deg,#000 30%,rgba(0,0,0,.55)),url('${E(safe(s.storePhoto))}')"><div class="w"><h1>${E(s.heroTitle)}</h1><p>${E(s.heroSub)}</p><div class="bt"><a class="btn" href="#catalogo">VER CATÁLOGO</a><a class="btn wa" data-wa="Olá! Vim pelo site e gostaria de mais informações.">💬 FALAR NO WHATSAPP</a></div><div class="chipbar"><span>⭐ ${E(s.gRating)} no Google (${E(s.gCount)} avaliações)</span><span>📍 ${E(s.unit)}</span><span>🛠️ Assistência técnica</span></div></div></section>`;
+if(bn.length)h+=`<section style="padding-bottom:0"><div class="w"><div class="car">${bn.map((b,i)=>`<div class="sl${i?"":" on"}" style="background-image:url('${E(safe(b.image))}')"><div><small>${E(b.subtitle)}</small><h3>${E(b.title)}</h3><p>${E(b.text)}</p>${b.btn?`<a class="btn sm" ${b.productId&&byId(b.productId)?`href="#" onclick="openP('${b.productId}');return false"`:`href="${E(safe(b.link)||"#catalogo")}"`}>${E(b.btn)}</a>`:""}</div></div>`).join("")}<button class="ar l" onclick="go(-1)" aria-label="Anterior">‹</button><button class="ar r" onclick="go(1)" aria-label="Próximo">›</button><div class="dots">${bn.map((b,i)=>`<i class="${i?"":"on"}" onclick="show(${i})"></i>`).join("")}</div></div></div></section>`;
+h+=`<section id="catalogo"><div class="w"><h2>Nosso catálogo</h2><p class="sub">Encontre o acessório ideal, monte seu carrinho e finalize pelo WhatsApp.</p>
+<div class="tools"><input placeholder="🔍 O que você está procurando?" oninput="setF('q',this.value)" aria-label="Pesquisar">
+<select onchange="setF('brand',this.value)" aria-label="Marca"><option value="">Todas as marcas</option>${brands.map(b=>`<option>${E(b)}</option>`).join("")}</select>
+<select onchange="setF('max',this.value)" aria-label="Preço"><option value="">Qualquer preço</option><option value="30">Até R$ 30</option><option value="60">Até R$ 60</option><option value="100">Até R$ 100</option><option value="200">Até R$ 200</option></select>
+<select onchange="setF('sale',this.value=='1')" aria-label="Promoções"><option value="">Todos</option><option value="1">Só promoções</option></select>
+<select onchange="setF('sort',this.value)" aria-label="Ordenar"><option value="new">Mais recentes</option><option value="lo">Menor preço</option><option value="hi">Maior preço</option><option value="promo">Promoções</option></select></div>
+<div class="chips"><span class="chip on" data-c="" onclick="setF('cat','')">Todos</span>${L(s.categories).map(c=>`<span class="chip" data-c="${E(c)}" onclick="setF('cat',this.dataset.c)">${E(c)}</span>`).join("")}</div>
+<label style="color:var(--m);font-size:.85rem"><input type="checkbox" onchange="setF('avail',this.checked)"> Mostrar só disponíveis</label><div class="grid" id="gr" style="margin-top:14px"></div></div></section>`;
+if(fe.length)h+=`<section><div class="w"><h2>Produtos em destaque</h2><p class="sub">Selecionados pela nossa equipe.</p><div class="grid">${fe.map(p=>card(p,1)).join("")}</div></div></section>`;
+if(sl.length)h+=`<section class="band"><div class="w"><h2>🔥 Ofertas especiais</h2><p class="sub">Aproveite enquanto durar o estoque.</p><div class="grid">${sl.map(p=>card(p)).join("")}</div></div></section>`;
+h+=`<section id="assistencia"><div class="w"><h2>Assistência técnica especializada</h2><p class="sub">${E(s.servicesText)}</p><div class="svc">${L(s.services).map(x=>`<div class="box">🛠️ <b>${E(x)}</b></div>`).join("")}</div><a class="btn wa" data-wa="Olá! Gostaria de solicitar um orçamento para assistência técnica.">SOLICITAR ORÇAMENTO</a></div></section>`;
+h+=`<section class="band"><div class="w"><h2>Por que escolher a ${E(s.name.split(" ")[0])}?</h2><div class="svc">${L(s.why).map(x=>`<div class="box">✓ <b>${E(x)}</b></div>`).join("")}</div></div></section>`;
+h+=`<section id="sobre"><div class="w two"><div><h2>Sobre nós</h2><p style="color:#ccc;white-space:pre-line">${E(s.about)}</p>${s.mission?`<h3 style="margin-top:14px">Missão</h3><p style="color:#ccc">${E(s.mission)}</p>`:""}${s.team?`<h3 style="margin-top:14px">Equipe</h3><p style="color:#ccc">${E(s.team)}</p>`:""}</div><img loading="lazy" src="${E(safe(s.storePhoto))}" alt="Fachada da loja"></div></section>`;
+h+=`<section class="band"><div class="w"><h2>O que dizem nossos clientes</h2><div class="rate"><b>${E(s.gRating)}</b><div><div class="stars">★★★★★</div><small>${E(s.gCount)} avaliações no Google</small></div><a class="btn o sm" target="_blank" rel="noopener" href="${E(safe(s.gLink))}">Ver no Google</a><a class="btn o sm" target="_blank" rel="noopener" href="${E(safe(s.instagram))}">📸 Instagram</a></div><div class="svc">${rv.map(r=>`<div class="box"><span class="stars">★★★★★</span><p style="margin:6px 0">“${E(r[1]||r[0])}”</p><small style="color:var(--m)">${r[1]?E(r[0]):""}</small></div>`).join("")}</div></div></section>`;
+h+=`<section id="contato"><div class="w two"><div><h2>Venha nos visitar</h2><p style="margin:10px 0">📍 ${E(s.address)}</p><p style="margin:10px 0">🕒 ${E(s.hours)}</p><p style="margin:10px 0">📞 ${E(s.phone)}${s.email?" · ✉️ "+E(s.email):""}</p><div class="bt" style="margin-top:14px"><a class="btn wa" data-wa="Olá! Gostaria de mais informações.">💬 WhatsApp</a><a class="btn o" target="_blank" rel="noopener" href="${E(safe(s.instagram))}">Instagram</a><a class="btn o" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(s.address)}">Rotas</a></div></div><iframe loading="lazy" title="Mapa" src="https://www.google.com/maps?q=${encodeURIComponent(s.address)}&output=embed"></iframe></div></section>`;
+h+=`<footer><div class="w"><img src="${E(s.logo)}" style="height:50px;margin:0 auto 10px" alt=""><p>© ${new Date().getFullYear()} ${E(s.name)} · ${E(s.city)}</p><p style="margin-top:8px"><a target="_blank" rel="noopener" href="${E(safe(s.instagram))}">Instagram</a><a data-wa="Olá!">WhatsApp</a>${s.linktree?`<a target="_blank" rel="noopener" href="${E(safe(s.linktree))}">Links</a>`:""}</p><button id="adm" onclick="adminOpen()">ADMIN</button></div></footer>`;
+$("#app").innerHTML=h;drawGrid();bindWA();updCart();clearInterval(timer);cur=0;if(bn.length>1)timer=setInterval(()=>go(1),5500)}
+function show(i){const s=document.querySelectorAll(".sl"),d=document.querySelectorAll(".dots i");cur=(i+s.length)%s.length;s.forEach((e,k)=>e.classList.toggle("on",k===cur));d.forEach((e,k)=>e.classList.toggle("on",k===cur))}
+const go=n=>show(cur+n);
+function openP(id){const p=byId(id);if(!p)return;const g=[p.image,...L(p.gallery)].filter(Boolean),o=off(p);
+$("#pb").innerHTML=`<div class="pg"><div><div class="big" id="bgi" style="background-image:url('${E(g[0]||"")}')"></div><div class="th">${g.map(u=>`<img src="${E(u)}" onclick="$('#bgi').style.backgroundImage='url(&quot;'+this.src+'&quot;)'" alt="">`).join("")}</div></div>
+<div><span class="cat">${E(p.category)}${p.brand?" · "+E(p.brand):""}</span><h2>${E(p.name)}</h2><div class="pr" style="margin:10px 0">${o?`<s>${R(p.price)}</s> <span class="off" style="position:static">-${o}% OFF</span><br>`:""}<b style="font-size:2rem">${R(eff(p))}</b></div>
+<div class="av${out(p)?" x":""}">● ${E(p.stock||"Disponível")}</div><p style="color:#ccc;margin:12px 0;white-space:pre-line">${E(p.desc)}</p>
+${p.specs?`<h4>Especificações</h4><ul>${L(p.specs).map(x=>`<li>${E(x)}</li>`).join("")}</ul>`:""}${p.compat?`<p><b>Compatibilidade:</b> ${E(p.compat)}</p>`:""}
+${out(p)?"":`<button class="btn blk" style="margin-top:16px;padding:16px" onclick="add('${p.id}')">🛒 ADICIONAR AO CARRINHO</button>`}
+<a class="btn wa blk" style="margin-top:10px;padding:16px" target="_blank" rel="noopener" href="${WA(wait(p))}">💬 COMPRAR PELO WHATSAPP</a></div></div>`;
+$("#pm").classList.add("on");document.title=p.name+" | "+D.settings.name;history.replaceState(null,"","#produto/"+slug(p.name))}
+function closeP(){$("#pm").classList.remove("on");history.replaceState(null,"","#");document.title=D.settings.name}
+$("#bg").onclick=()=>$("#nv").classList.toggle("on");$("#nv").onclick=()=>$("#nv").classList.remove("on");
+render();
+{const m=location.hash.match(/^#produto\/(.+)$/);if(m){const p=D.products.find(x=>slug(x.name)===m[1]);if(p)openP(p.id)}}
+
+/* ===== Admin ===== */
+let tab="products",AUTH=false;
+const sha=async t=>[...new Uint8Array(await crypto.subtle.digest("SHA-256",new TextEncoder().encode(t)))].map(b=>b.toString(16).padStart(2,"0")).join("");
+const curHash=()=>localStorage.getItem("eb_hash")||HASH;
+function adminOpen(){$("#ad").classList.add("on");AUTH?panel():loginUI()}
+function closeA(){$("#ad").classList.remove("on");render()}
+function loginUI(){$("#ab").innerHTML=`<button class="x" onclick="closeA()">×</button><h2>Área administrativa</h2><label>Usuário</label><input id="lu" autocomplete="username"><label>Senha</label><input id="lp" type="password" autocomplete="current-password" onkeydown="if(event.key=='Enter')login()"><p class="err" id="le"></p><button class="btn" style="margin-top:12px" onclick="login()">ENTRAR</button>`}
+async function login(){const n=+(sessionStorage.getItem("eb_t")||0);if(n>=5)return $("#le").textContent="Muitas tentativas. Recarregue a página mais tarde.";
+if($("#lu").value==="administrador"&&await sha($("#lp").value)===curHash()){AUTH=true;panel()}else{sessionStorage.setItem("eb_t",n+1);$("#le").textContent="Usuário ou senha inválidos."}}
+const FLD={products:[["name","Nome","s"],["category","Categoria","cat"],["brand","Marca","s"],["price","Preço (R$)","n"],["promo","Preço promocional (R$)","n"],["sale","Em promoção","b"],["featured","Em destaque","b"],["active","Ativo (visível no site)","b"],["stock","Disponibilidade","stock"],["image","Foto principal (link ou upload)","i"],["gallery","Fotos adicionais (uma por linha)","g"],["desc","Descrição","t"],["specs","Especificações (uma por linha)","t"],["compat","Compatibilidade","s"],["order","Ordem (menor aparece primeiro)","n"]],
+banners:[["image","Imagem (link ou upload)","i"],["title","Título","s"],["subtitle","Subtítulo","s"],["text","Texto promocional","t"],["btn","Texto do botão","s"],["link","Link do botão","s"],["productId","Produto relacionado","p"],["start","Data de início","d"],["end","Data de término","d"],["active","Ativo","b"],["order","Ordem","n"]],
+settings:[["name","Nome da empresa","s"],["unit","Unidade/local","s"],["logo","Logo (link ou upload)","i"],["storePhoto","Foto da loja (link ou upload)","i"],["color","Cor principal (#hex)","s"],["whatsapp","WhatsApp (só números com DDI, ex: 5547...)","s"],["phone","Telefone","s"],["email","E-mail","s"],["instagram","Instagram (link)","s"],["linktree","Outro link","s"],["address","Endereço","s"],["hours","Horário de funcionamento","s"],["city","Cidade/região","s"],["gRating","Nota no Google","s"],["gCount","Nº de avaliações no Google","s"],["gLink","Link das avaliações do Google","s"],["heroTitle","Título principal","s"],["heroSub","Subtítulo principal","t"],["categories","Categorias (uma por linha)","t"],["services","Serviços da assistência (um por linha)","t"],["servicesText","Texto da assistência","t"],["why","Diferenciais (um por linha)","t"],["about","Sobre: história/descrição","t"],["mission","Missão","t"],["team","Equipe","t"],["reviews","Avaliações (uma por linha: Nome|Comentário)","t"]]};
+function panel(){const T=[["products","Produtos"],["banners","Banners e promoções"],["settings","Configurações"]];
+$("#ab").innerHTML=`<button class="x" onclick="closeA()">×</button><h2>Painel admin</h2><div class="tabs">${T.map(x=>`<button class="btn sm${tab==x[0]?"":" o"}" onclick="tab='${x[0]}';panel()">${x[1]}</button>`).join("")}<button class="btn o sm" onclick="AUTH=false;closeA()">Sair</button></div><div id="tb"></div>`;
+tab=="settings"?form("settings",D.settings,-1):list()}
+function list(){const a=D[tab];$("#tb").innerHTML=`<button class="btn sm" onclick="form(tab,{active:true,stock:'Disponível',order:0},${a.length})">+ ${tab=="products"?"ADICIONAR PRODUTO":"ADICIONAR BANNER"}</button>${a.map((o,i)=>`<div class="row">${o.image?`<img src="${E(o.image)}" alt="">`:""}<span><b>${E(o.name||o.title)}</b> <small>${o.price?R(o.price):""}${o.active===false?" · INATIVO":""}${o.sale?" · PROMO":""}${o.featured?" · DESTAQUE":""}</small></span><button class="btn o sm" onclick="form(tab,D[tab][${i}],${i})">Editar</button><button class="btn o sm" onclick="del(${i})">Excluir</button></div>`).join("")}`}
+function del(i){if(!confirm(tab=="products"?"Tem certeza que deseja excluir este produto?":"Tem certeza que deseja excluir este banner?"))return;D[tab].splice(i,1);persist();list()}
+function up(inp,k,append){const f=inp.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const m=Math.min(1,900/Math.max(im.width,im.height)),c=document.createElement("canvas");c.width=im.width*m;c.height=im.height*m;c.getContext("2d").drawImage(im,0,0,c.width,c.height);const u=c.toDataURL("image/jpeg",.8),el=$(`[data-k="${k}"]`);el.value=append&&el.value?el.value+"\n"+u:u};im.src=r.result};r.readAsDataURL(f)}
+function form(col,o,idx){let h='<div class="ad">'+(col!="settings"?'<button class="btn o sm" onclick="list()">← Voltar</button>':"");
+FLD[col].forEach(([k,l,t])=>{const v=o[k]==null?"":o[k];h+=`<label>${l}</label>`;
+if(t=="b")h+=`<input type="checkbox" data-k="${k}" ${o[k]!==false&&(o[k]||k=="active")?"checked":""}>`;
+else if(t=="t"||t=="g")h+=`<textarea data-k="${k}">${E(v)}</textarea>${t=="g"?`<input type="file" accept="image/*" onchange="up(this,'${k}',1)">`:""}`;
+else if(t=="p")h+=`<select data-k="${k}"><option value="">— nenhum —</option>${D.products.map(p=>`<option value="${p.id}"${p.id==v?" selected":""}>${E(p.name)}</option>`).join("")}</select>`;
+else if(t=="stock")h+=`<select data-k="${k}">${["Disponível","Sob encomenda","Indisponível"].map(x=>`<option${x==v?" selected":""}>${x}</option>`).join("")}</select>`;
+else if(t=="cat")h+=`<select data-k="${k}">${L(D.settings.categories).map(x=>`<option${x==v?" selected":""}>${E(x)}</option>`).join("")}</select>`;
+else h+=`<input data-k="${k}" type="${t=="n"?"number":t=="d"?"date":"text"}" ${t=="n"?'step="0.01" min="0"':""} value="${E(v)}">${t=="i"?`<input type="file" accept="image/*" onchange="up(this,'${k}')">`:""}`});
+h+=`<p class="err" id="er"></p><button class="btn" style="margin-top:14px" onclick="saveF('${col}',${idx})">SALVAR</button> <span class="ok" id="ok"></span>`;
+if(col=="settings")h+=`<hr style="margin:22px 0;border-color:#333"><label>Nova senha do administrador (mín. 8 caracteres)</label><input id="np" type="password"><button class="btn o sm" style="margin-top:8px" onclick="chPass()">Alterar senha</button>
+<hr style="margin:22px 0;border-color:#333"><label>Backup dos dados</label><div class="tabs"><button class="btn o sm" onclick="exp()">Baixar backup</button><label class="btn o sm" style="margin:0">Restaurar backup<input type="file" accept=".json" hidden onchange="imp(this)"></label></div>`;
+$("#tb").innerHTML=h+"</div>"}
+function saveF(col,idx){const o=col=="settings"?D.settings:(D[col][idx]||{id:uid(),created:Date.now()});
+FLD[col].forEach(([k,l,t])=>{const el=$(`[data-k="${k}"]`);if(!el)return;o[k]=t=="b"?el.checked:t=="n"?Math.max(0,+el.value||0):el.value.trim()});
+if(col=="products"){if(!o.name)return $("#er").textContent="Informe o nome.";if(o.sale&&!(o.promo>0&&o.promo<o.price))return $("#er").textContent="O preço promocional deve ser menor que o preço.";
+["image"].forEach(k=>o[k]=safe(o[k]));o.gallery=L(o.gallery).filter(safe).join("\n")}
+if(col!="settings"&&idx>=D[col].length)D[col].push(o);persist();col=="settings"?$("#ok").textContent="Salvo ✓":list()}
+async function chPass(){const p=$("#np").value;if(p.length<8)return alert("Mínimo de 8 caracteres.");localStorage.setItem("eb_hash",await sha(p));alert("Senha alterada.")}
+function exp(){const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(D)],{type:"application/json"}));a.download="easybox-backup.json";a.click()}
+function imp(i){const f=i.files[0];if(!f)return;f.text().then(t=>{try{const d=JSON.parse(t);if(!d.settings||!d.products)throw 0;D=d;persist();alert("Backup restaurado.");panel()}catch(e){alert("Arquivo inválido.")}})}
+</script></body></html>
